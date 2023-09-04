@@ -1,0 +1,22 @@
+{
+    "ValidProductName": "iphone",
+    "ValidRangeProductName": "adidas original",
+    "InvalidProductName": [
+        {
+            "Product": "sihdgjd433434@##$#"
+        },
+        {
+            "Product": "    "
+        }
+    ],
+    "ValidPriceRange": {
+        "Mini": "00",
+        "Max": "32500"
+    },
+    "InvalidPriceRange": {
+        "Mini": "00",
+        "Max": "0000"
+    },
+    "ErrorMessage": "No Products Found",
+    "homePageUrl": "https://rahulshettyacademy.com/client/dashboard/dash"
+}

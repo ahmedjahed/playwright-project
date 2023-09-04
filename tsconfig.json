@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "pageFactory/pageRepository/*"
+            ],
+            "@objects/*": [
+                "pageFactory/objectRepository/*"
+            ],
+            "@lib/*": [
+                "lib/*"
+            ],
+            "@data/*": [
+                "testData/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ]
+        }
+    }
+}

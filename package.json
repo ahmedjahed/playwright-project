@@ -1,0 +1,36 @@
+{
+  "name": "ecom_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=Chrome --workers=1",
+    "headed": "npx playwright test --headed --reporter=list",
+    "debug": "npx playwright test --debug",
+    "singleTest": "npx playwright test Orders.test.ts --project=chrome",
+    "endToEndTest": "npx playwright test EndToEndOrderProduct.test.ts --project=safari",
+    "codeGenerate": "npx playwright codegen",
+    "visualComparision": "npx playwright test --grep @Visual --project=Chrome",
+    "allureReport": "allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  },
+  "dependencies": {
+    "@types/adm-zip": "^0.4.34",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
+    "adm-zip": "^0.5.9",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.17",
+    "cross-env": "^7.0.3",
+    "edit-json-file": "^1.7.0",
+    "eslint": "^8.19.0",
+    "eslint-plugin-import": "^2.26.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  }
+}

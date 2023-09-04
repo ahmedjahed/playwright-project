@@ -1,0 +1,49 @@
+{
+    "RequiredFieldsErrorMsg": [
+        "*Email is required",
+        "*Password is required",
+        "*Confirm Password is required"
+    ],
+    "InvalidEmailPasswordErrorMsg": [
+        "*Enter Valid Email",
+        "Password and Confirm Password must match with each other."
+    ],
+    "InvalidData": {
+        "Email": "exampl",
+        "Password": "Aa@12345",
+        "ConfirmPassword": "Aa2345"
+    },
+    "PlaceholderData": {
+        "Email": "Enter your email address",
+        "Password": "Passsword",
+        "ConfirmPassword": "Confirm Passsword"
+    },
+    "PassChangedSuccessMessage": "Password Changed Successfully",
+    "InvalidPassData": [
+        {
+            "Email": "example1@gmail.com",
+            "Pass": "1234567",
+            "ConfirmPass": "1234567"
+        },
+        {
+            "Email": "example1@gmail.com",
+            "Pass": "12345678",
+            "ConfirmPass": "12345678"
+        },
+        {
+            "Email": "example1@gmail.com",
+            "Pass": "A12345678",
+            "ConfirmPass": "A12345678"
+        },
+        {
+            "Email": "example1@gmail.com",
+            "Pass": "Aa12345678",
+            "ConfirmPass": "Aa12345678"
+        },
+        {
+            "Email": "example1@gmail.com",
+            "Pass": "Aa@18",
+            "ConfirmPass": "Aa@18"
+        }
+    ]
+}

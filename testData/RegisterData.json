@@ -1,0 +1,89 @@
+{
+    "ValidData": {
+        "FirstName": "Auntor",
+        "LastName": "Acharja",
+        "PhoneNumber": "1795475120",
+        "Occupation": "Engineer",
+        "Gender": "Male",
+        "Password": "Aa@12345",
+        "ConfirmPassword": "Aa@12345"
+    },
+    "InvalidData": {
+        "FirstName": "Ar",
+        "Email": "asd",
+        "PhoneNumber": "bhhh",
+        "Password": "12345",
+        "ConfirmPassword": "Aa@12"
+    },
+    "PlaceholderData": {
+        "FirstName": "First Name",
+        "LastName": "Last Name",
+        "Email": "email@example.com",
+        "PhoneNumber": "enter your number",
+        "Password": "Password",
+        "ConfirmPassword": "Confirm Password"
+    },
+    "RequiredFieldsErrorMsg": [
+        "*First Name is required",
+        "*Email is required",
+        "*Phone Number is required",
+        "*Password is required",
+        "Confirm Password is required"
+    ],
+    "InvalidFieldsErrorMsg": [
+        "*First Name must be 3 or more character long",
+        "*Enter Valid Email",
+        "*only numbers is allowed*Phone Number must be 10 digit",
+        "Password and Confirm Password must match with each other."
+    ],
+    "RequiredCheckboxErrorMsg": "*Please check above checkbox",
+    "InvalidPassData": [
+        {
+            "FirstName": "Auntor",
+            "LastName": "Acharja",
+            "PhoneNumber": "1795405101",
+            "Pass": "1234567",
+            "ConfirmPass": "1234567"
+        },
+        {
+            "FirstName": "Auntor",
+            "LastName": "Acharja",
+            "PhoneNumber": "1795405101",
+            "Pass": "12345678",
+            "ConfirmPass": "12345678"
+        },
+        {
+            "FirstName": "Auntor",
+            "LastName": "Acharja",
+            "PhoneNumber": "1795405101",
+            "Pass": "A12345678",
+            "ConfirmPass": "A12345678"
+        },
+        {
+            "FirstName": "Auntor",
+            "LastName": "Acharja",
+            "PhoneNumber": "1795405101",
+            "Pass": "Aa12345678",
+            "ConfirmPass": "Aa12345678"
+        },
+        {
+            "FirstName": "Auntor",
+            "LastName": "Acharja",
+            "PhoneNumber": "1795405101",
+            "Pass": "Aa@18",
+            "ConfirmPass": "Aa@18"
+        }
+    ],
+    "RegisterSuccessMessage":"Registered Successfully",
+    "AlreadyUserRegisterData": {
+        "FirstName": "Auntor",
+        "LastName": "Acharja",
+        "Email": "example1@gmail.com",
+        "PhoneNumber": "1795475103",
+        "Occupation": "Engineer",
+        "Gender": "Male",
+        "Password": "Aa@12345",
+        "ConfirmPassword": "Aa@12345",
+        "AlertMessage":"User already exisits with this Email Id!"
+    }
+}

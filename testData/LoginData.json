@@ -1,0 +1,29 @@
+{
+  "ValidLoginData": {
+    "Email": "example1@gmail.com",
+    "Password": "Aa@18"
+  },
+  "InvalidLoginData": [
+    {
+      "Email": "example@gmail.com",
+      "Password": "Aa@12345"
+    },
+    {
+      "Email": "example1@gmail.com",
+      "Password": "Aa@345"
+    }
+  ],
+  "PlaceholderData": {
+    "Email": "email@example.com",
+    "Password": "enter your password"
+  },
+  "RequiredFieldsErrorMsg": [
+    "*Email is required",
+    "*Password is required"
+  ],
+  "InvalidEmailFieldErrorMsg": [
+    "*Enter Valid Email"
+  ],
+  "LoginSuccessMessage": "Login Successfully",
+  "InvalidEmail": "hsdsdjdhj4878"
+}
